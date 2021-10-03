@@ -1,0 +1,13 @@
+.footer{
+    background-color:#e3e3e3;
+    color:black;
+
+    padding:15px;
+  
+    width:-webkit-fill-available;
+    margin-top:15%
+}
+.footer > p{
+    width: fit-content;
+    margin:auto
+}

@@ -1,0 +1,8 @@
+.room_extra_info{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.room_extra_info div{
+    margin:20px
+}

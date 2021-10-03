@@ -1,0 +1,5 @@
+.MuiTab-wrapper{
+    flex-direction: row!important;
+    justify-content: space-between !important;
+    padding: 8px;
+    }

@@ -1,0 +1,27 @@
+.banner{
+    position: relative;
+    background-image: url(https://images.pexels.com/photos/26139/pexels-photo-26139.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+}
+.banner_info{
+    background-color: gray;
+    padding:50px 10px 10px 25px ;
+    max-width:380px;
+
+
+}
+.banner_info > button {
+    margin: 20px 10px;
+    text-transform: inherit;
+}
+.search_date{
+    display: flex;
+    flex-direction: column;
+}
+.search_date > button{
+    background-color: white !important;
+    font-weight: 700 !important;
+    color: #ff7779 !important;
+}

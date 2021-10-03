@@ -1,0 +1,37 @@
+.search_result{
+    display: flex;
+    position: relative;
+    margin:20px;
+    padding:20px;
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+}
+.search_result:hover{
+    opacity: .8;
+}
+.search_result>img{
+    width:300px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.heart_icon{
+    position:absolute;
+    top: 20px;
+    right:40px
+}
+.search_result_info_top{
+    margin:20px;
+    width:40vw
+
+}
+
+.search_result_info_bottom{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+search_result_info_bottom>div{
+    display: flex;
+    align-items: center;
+}

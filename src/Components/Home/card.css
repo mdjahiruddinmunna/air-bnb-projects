@@ -1,0 +1,38 @@
+.card{
+   
+    margin:10px;
+    padding:10px;
+   border: none;
+   border-radius: 10px;
+box-shadow: 7px 5px 8px 0 rgba(0, 0, 0, 0.11);
+transition: transform 500ms ease-in;
+}
+.card:hover{
+    transform:scale(1.05)
+}
+.card>img{
+     min-width: 180px;
+    /* min-height: 300px; */
+    object-fit: contain;
+    width:100%
+}
+.card_info h4{
+    margin :auto;
+    width:fit-content;
+    padding:8px
+}
+.card_info p{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    font-size: 12px;
+}
+.card_info button{
+   width: fit-content;
+    margin: 5px 30%;
+    height: 30px;
+    padding: 5px;
+    background-color: #f4f400;
+    border:none;
+    border-radius: 5px;
+}

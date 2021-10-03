@@ -1,0 +1,51 @@
+.date_picker{
+    position: absolute;
+    top:30px;
+    left:0;
+    width:fit-content;
+    z-index:800;
+     background-color: white;
+}
+.date_picker> div {
+ display: flex;
+}
+.date_picker >div> button {
+    background-color: #06b6b6;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    margin: 0px 5px;
+    outline:none
+}
+.date_picker >div> button:hover{
+    background-color:#11ecec;
+}
+.guest_count_input{
+    display: flex;
+    border: 1px solid;
+    width:fit-content;
+    border-radius: 20px;
+    align-items: center;
+   
+}
+.rdrDateRangePickerWrapper{
+    display:flex !important;
+    flex-wrap: wrap !important;
+    z-index: 10000 !important;
+    max-width: 100vw  !important;
+ 
+}
+
+.guest_count_input>input{
+ margin:5px;
+ border:none;
+ outline:none
+}
+/* @media only screen and (max-width: 600px) {
+ .date_picker{
+    position: absolute;
+    top:30px;   
+    width:fit-content
+}
+
+} */

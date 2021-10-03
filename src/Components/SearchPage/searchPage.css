@@ -1,0 +1,14 @@
+.search_page-info>p{
+    font-size: 14px;
+    padding:8px
+}
+
+.search_page-info>h4{
+    padding:8px
+}
+.search_page-info>button{
+    border:1PX solid;
+    border-radius: 20px;
+    margin:10PX;
+    text-transform: inherit !important;
+}
